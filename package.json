@@ -1,0 +1,22 @@
+{
+  "name": "gql-boilerplate",
+  "version": "0.0.0",
+  "description": "'GraphqlQl boilerplate'",
+  "private": true,
+  "author": "(Fahad Billah <billah22@gmail.com>)",
+  "license": "MIT",
+  "workspaces": [
+    "packages/permission",
+    "packages/user"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

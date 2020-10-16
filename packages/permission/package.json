@@ -1,0 +1,23 @@
+{
+  "name": "permission",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "nodemon src/index.js --exec babel-node",
+    "start:debug": "nodemon src/index.js --exec babel-node --inspect=9001",
+    "start:server": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fhd/config": "^0.0.0",
+    "apollo-server-express": "^2.18.2",
+    "express": "^4.17.1",
+    "graphql-scalars": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "nodemon": "^2.0.5"
+  }
+}
